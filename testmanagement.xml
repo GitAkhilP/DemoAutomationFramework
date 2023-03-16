@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Test Suite">
+
+    <!-- this is how we achieve targeted test suite executions -->
+    <!-- we can create regressions, smoke, and any other test suite that we want-->
+    <!-- once configured with maven surefire targeted test execution becomes easy -->
+
+    <test name="Smoke Test">
+        <classes>
+            <!-- this pulls all test cases from this class we can also isolate -->
+            <!-- individual test cases as well if needed -->
+            <class name="tests.SomeFeatureTest"></class>
+        </classes>
+    </test>
+
+</suite>
