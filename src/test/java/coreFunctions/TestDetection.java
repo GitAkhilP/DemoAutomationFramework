@@ -8,10 +8,10 @@ public class TestDetection implements ITestListener {
 
     /**
      * This class utilizes the ITestListener interface which we can use for test
-     * detection and report generation
+     * detection and report generation.
      *
      * The methods will be overridden in order to meet the reporting
-     * requirements of the framework Using extentReport library
+     * requirements of the framework Using extentreports library
      *
      */
 

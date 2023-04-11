@@ -8,7 +8,7 @@ import pages.LoginPageEx;
 
 abstract public class baseTest {
 
-    // we can create all out Page Objects here to avoid
+    // We can create all our Page Objects here to avoid
     // code repetition in out test cases.
     LoginPageEx loginPageEx = new LoginPageEx();
 
@@ -17,7 +17,7 @@ abstract public class baseTest {
     public void beforeMethod(){
         /**
          * Here we can invoke any needed methods that should be called
-         * before the testcase  runs typically open browser
+         * before the testcase runs. Typically it's open browser.
          */
     }
 
@@ -26,7 +26,7 @@ abstract public class baseTest {
     public void afterMethod(){
         /**
          * Here we invoke any needed methods to run after the test case
-         * runs typically close browser
+         * runs. Typically close browser.
          */
     }
 }

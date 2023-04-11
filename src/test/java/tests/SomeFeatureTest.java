@@ -18,7 +18,7 @@ public class SomeFeatureTest extends baseTest {
     public void anotherTestCase(){
         // We can also use testNG annotations to group
         // test cases like this, but there is a better way..
-        // see testmanagement.xml
+        // see testmanagement.xml.
 
         loginPageEx.usrLogin("Hello", "World");
     }
